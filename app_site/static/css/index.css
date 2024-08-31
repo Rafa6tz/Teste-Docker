@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{   
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    transition: ease-in;
+    transition-duration: .3s;
+    background-color: azure;
+    padding: 20px;
+    border-radius: 25%;
+}
+
+a:hover{
+ color: brown;
+ font-size: 22px;
+}
+
+#foto{
+    height: 600px;
+    background-image: url('https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-san-francisco-capa2019-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -80px;
+}
+
+.apresentacao{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.apresentacao p{
+    margin-top: 10px;
+}
+
+.galeriacontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.galeria{  
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galeria img{
+    height: 300px;
+    width: 500px;
+}
+
+.historiacontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.historiacontainer h2{
+    margin: 32px;
+}
+
+.historiacontainer img{
+    width: 600px;
+    height: 400px;
+}
+
+li{
+    font-weight: 700;
+}
+
+.historiacontainer p{
+    padding-bottom: 20px;
+}
+
+#imagem-grande img{
+    height: 500px;
+    width: 700px;
+}
