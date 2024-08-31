@@ -1,0 +1,12 @@
+REPO_DIR="app_site"
+
+cd "$REPO_DIR" || { echo "Não foi possível mudar para o diretório $REPO_DIR"; exit 1; }
+
+echo "Atualizando o repositório..."
+git fetch --all
+
+echo "Atualizando a branch principal..."
+git pull origin main
+
+
+echo "Repositório atualizado com sucesso!"

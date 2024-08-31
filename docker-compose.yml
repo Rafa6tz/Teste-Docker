@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  servidor:
+    build: .
+    volumes:
+      - /app_site
+    working_dir: /app_site
+    command: sh -c "while true; do sleep 1000; done"
+
